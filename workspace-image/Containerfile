@@ -7,7 +7,7 @@ ENV BUILDAH_ISOLATION=chroot
 
 COPY --chown=0:0 entrypoint.sh /
 
-RUN microdnf --disableplugin=subscription-manager install -y openssl git tar shadow-utils bash zsh podman buildah skopeo python3-pip python3-devel aardvark-dns ; \
+RUN microdnf --disableplugin=subscription-manager install -y openssl git tar shadow-utils bash zsh podman buildah skopeo python3-pip python3-devel aardvark-dns fuse-overlayfs util-linux vim-minimal vim-enhanced ; \
     microdnf update -y ; \
     microdnf clean all ; \
     pip3 install podman-compose ; \
