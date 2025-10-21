@@ -10,7 +10,7 @@ See this Red Hat Developers Blog - [Enable nested containers in OpenShift Dev Sp
 
 In order to use this workspace, you need to apply some configuration changes to the default Dev Spaces install.
 
-__Note:__ There are three things that you must take into consideration before proceeding.
+__Note:__ There are two things that you must take into consideration before proceeding.
 
 1. Your cluster needs to be on OCP v4.20+ 
 
