@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if [ ! -d "${HOME}" ]
+then
+  mkdir -p "${HOME}"
+fi
+
+if [ ! -d "${HOME}/.config/containers" ]
+  mkdir -p ${HOME}/.config/containers
+  (echo '[storage]';echo 'driver = "overlay"';echo 'graphroot = "/tmp/graphroot"';echo '[storage.options.overlay]';echo 'mount_program = "/usr/bin/fuse-overlayfs"') > ${HOME}/.config/containers/storage.conf
+fi
+
+exec "$@"
