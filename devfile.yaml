@@ -2,7 +2,7 @@ schemaVersion: 2.2.0
 attributes:
   controller.devfile.io/storage-type: per-workspace
 metadata:
-  name: nested-containers-demo
+  name: nested-containers-dev-spaces
 components:
 - name: dev-tools
   container: 
