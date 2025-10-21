@@ -72,6 +72,8 @@ Now, here are the changes that you need to apply to your cluster:
    EOF
    ```
 
+1. Let the `DevWorkspace Operator` update to version `0.37.0+` if it did not install at that version.
+
 1. Create an OpenShift Dev Spaces cluster that uses the new SCC
 
    ```bash

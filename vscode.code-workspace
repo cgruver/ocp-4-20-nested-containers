@@ -1,12 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "nested-containers-demo",
-			"path": "/projects/ocp-4-18-nested-container-tech-preview"
-		},
-		{
-			"name": "ocp-4-18-nested-container-tech-preview",
-			"path": "/projects/ocp-4-18-nested-container-tech-preview"
+			"name": "ocp-4-20-nested-containers",
+			"path": "/projects/ocp-4-20-nested-containers"
 		}
 	],
 	"extensions": {
