@@ -1,4 +1,4 @@
-# OCP 4.20 Running Containers is a Dev Spaces Workspace
+# OCP 4.20 Running Containers in a Dev Spaces Workspace
 
 Update of [ocp-4-17-nested-container-tech-preview](https://github.com/cgruver/ocp-4-17-nested-container-tech-preview) to reflect changes to OCP 4.20
 
