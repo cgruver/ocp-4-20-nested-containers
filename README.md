@@ -8,6 +8,8 @@ This repo implements a minimal OpenShift Dev Spaces workspace that demonstrates 
 
 See this Red Hat Developers Blog - [Enable nested containers in OpenShift Dev Spaces with user namespaces](https://developers.redhat.com/articles/2024/12/02/enable-nested-containers-openshift-dev-spaces-user-namespaces)
 
+__Watch a video demo here -__ [https://youtu.be/rLTpZEFQUsA](https://youtu.be/rLTpZEFQUsA)
+
 In order to use this workspace, you need to apply some configuration changes to the default Dev Spaces install.
 
 __Note:__ There are two things that you must take into consideration before proceeding.
