@@ -1,5 +1,18 @@
 # OCP 4.20 Running Containers in a Dev Spaces Workspace
 
+## NOTE - With Dev Spaces 3.25+ The below config is not necessary.  Container Run can be enabled directly in the CheCluster CR
+
+__Set the follwing in the CheCluster CR__
+
+```yaml
+spec:                         
+  ...
+  devEnvironments:       
+    ...
+    disableContainerBuildCapabilities: false
+    disableContainerRunCapabilities: false
+```
+
 Update of [ocp-4-17-nested-container-tech-preview](https://github.com/cgruver/ocp-4-17-nested-container-tech-preview) to reflect changes to OCP 4.20
 
 # Nested Containers in OpenShift Dev Spaces
